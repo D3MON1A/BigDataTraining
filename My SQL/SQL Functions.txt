@@ -1,0 +1,14 @@
+########## SQL Functions ########################
+rank (skip the duplicated rank)
+dense rank (don’t skip the duplicated rank)
+SELECT subjects, names, prices, RANK() over ( partition by subjects order by prices DESC ) my_rank from Products;
+lag and lead compare rows and add a new column in your result (query).
+Then you can analyze this 2 column and know the diff between them.
+Used id for dates.
+Ex: when the customer paid his bills and when this bill was due. 10 days for exemple.
+WHERE VS HAVING
+WHERE is used to filter the records from the table based on the specialized condition. HAVING is used to filter record from the groups based on the specified condition.
+We can have WHERE before a HAVING but never After.
+SQL VS NoSQL
+SQL are relational database (RDBMS), table-based.
+NoSQL is non-relational, document-based, wide-column stores or key-value pairs.

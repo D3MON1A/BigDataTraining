@@ -1,0 +1,14 @@
+1- What are the 5 V’s in Big Data?
+Volume, velocity, veracity, variety and value.
+
+2- What type of Data in Big Data can we find?
+structured, semi-structured and unstructured
+3- Is MySQL a RDBMS or NoSQL Database?
+RDBMS
+4- What is MongoDB?
+is a document oriented database program
+
+5- Write only 3 components of Hadoop Ecosystem.
+HDFS
+Hadoop MapReduce
+Hadoop Yarn

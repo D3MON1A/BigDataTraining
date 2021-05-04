@@ -1,0 +1,20 @@
+HDFS Meaning
+ Hadoop Distributed File System the most important component of Hadoop Ecosystem.
+
+Types of Nodes in HDFS
+ NameNode
+ DataNode
+
+
+What are the 3 steps in Hadoop MapReduce?
+ Map, shuffling-sorting and reduce
+
+
+
+Explain HDFS Architecture
+
+ HDFS has a master/slave architecture, NameNode is the master that contains Metadata and manages the file system,
+ slaves are the DataNodes, they are serving read and write requests from the clients side.
+
+What is Sqoop
+ It is a tool for transfering data between hadoop and relational database servers.
