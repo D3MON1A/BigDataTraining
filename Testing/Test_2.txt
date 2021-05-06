@@ -1,5 +1,7 @@
 HDFS Meaning
+	
  Hadoop Distributed File System the most important component of Hadoop Ecosystem.
+2-HDFS is a Filesystem of Hadoop, designed for storing very large files running on a cluster of commodity hardware.
 
 Types of Nodes in HDFS
  NameNode
