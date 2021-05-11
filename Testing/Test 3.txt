@@ -1,0 +1,56 @@
+Explain or draw Flume’s Architecture.
+Flume is an open-source tool, the architecture is based on streaming data flows 
+designed for collecting, aggregating and transfering data
+
+
+
+
+Explain or draw Kafka’s Architecture.
+Kafka architecture is a set of APIs that enable communication between producers and 
+consumers using messaging based topics and brokers
+
+
+
+
+What are the Kafka’s 4 cores APIs
+Producer API, Consumer API. Streams API, Connector API
+
+
+What is Hive?
+
+ Is an open source data warehouse software for reading, writing and managing large data set files that can be directly stored on Apache Hadoop.
+
+
+Explain or draw Hive’s Architecture.
+Apache Hive has a metastore that contains metadata for each of the tables, Hives metadata helps the driver to keep track of the data,
+The driver starts the execution of the statement creating sessions, and acts as a collection point of data result obtained after the reduce operation,
+then the compiler perform the compilation of the HiveQl query, and it will be convert in an execution plan,  the plan contain the tasks and the steps 
+needed for the performance of the MapReduce. The compiler converts the query to an AST than check for compability then converts the AST to a Directed Acyclic Graph.
+
+What are the 3 major components in HBase?
+
+ Client library, a master server and region servers.
+
+Why Spark is better than HadoopMR?
+Because Apache Spark utilizes ram.
+Sugestion from teacher iTS 100 TIMES FASTER BECAUSE USE MEMORY.
+
+What are the Spark’s components?
+SQL, Machine Learning, R on Spark, Streaming, Approximate SQL(BlindDB), Graph Computation.
+
+What are Spark RDD, Dataset and Dataframe?
+RDD is a distributed collection od data elements without schema.
+Dataset is a data structure in SparkSQL.
+Dataframe is a distributed collection of data organized into named columns.
+
+What is PySpark?
+PySpark is a Python API to support Apache Spark
+
+
+
+
+
+
+
+
+
