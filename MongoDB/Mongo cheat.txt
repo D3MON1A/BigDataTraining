@@ -1,4 +1,4 @@
-## Some commands for mangoDB (JSON format)
+## Some commands for mongoDB (JSON format)
 
 ## Install MongoDB ubuntu18
 
